@@ -86,7 +86,7 @@
 
 
       const url =
-        `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${encodeURIComponent(city)}&aqi=yes`;
+        `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${encodeURIComponent(city)}&aqi=yes`;
 
       fetch(url)
         .then(response => response.json())  
